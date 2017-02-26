@@ -1,0 +1,24 @@
+struct player_skills;
+
+
+enum classes{
+
+ Ogre , Wizard , Elf , Human
+
+}class[4];
+
+
+
+
+
+    struct players_{
+      char name[20];
+      char player_class[6];
+	    int life;
+	    int smartness;
+	    int strength;
+	    int magic_Skills;
+	    int Luck;
+	    int Dexterity;
+
+  }player[6];
